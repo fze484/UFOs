@@ -22,6 +22,7 @@ function buildTable(data) {
         cell.text(val);
         }
       );
+    );
     }
 }
 // function that handles user clicks and filteres table based on date selected
@@ -44,8 +45,7 @@ function handleClick() {
     // @NOTE: If no date was entered, then filteredData will
     // just be the original tableData.
     buildTable(filteredData);
-    // Attach an event to listen for the form button
-    
+    // Attach an event to listen for the form button 
 };
 d3.selectAll("#filter-btn").on("click", handleClick);
 // Build the table when the page loads
