@@ -22,9 +22,9 @@ function buildTable(data) {
         cell.text(val);
         }
       );
-    );
-    }
-}
+    
+    });
+};
 // function that handles user clicks and filteres table based on date selected
 function handleClick() {
     //select element with datetime id and store its value in date variable
