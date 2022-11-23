@@ -25,7 +25,7 @@ function buildTable(data) {
     
     });
 };
-// function that handles user clicks and filteres table based on date selected
+// function that handles user clicks and filters table based on date selected
 function handleClick() {
     //select element with datetime id and store its value in date variable
     let date = d3.select("#datetime").property("value");
